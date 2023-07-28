@@ -9,7 +9,7 @@ $('<p>Copyright - Holberton School</p>').appendTo('body');
 
 $('button').on('click', _.debounce(updateCounter, 500));
 
-// Preventing spammers by using debounce
+/* Preventing spammers by using debounce*/
 let count = 0;
 function updateCounter() {
   count += 1;
