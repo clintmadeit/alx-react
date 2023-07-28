@@ -1,7 +1,6 @@
 {
   "name": "task_3",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +8,7 @@
     "start-dev": "webpack-dev-server --open"
   },
   "keywords": [],
-  "author": "Phylis Mercy",
+  "author": "Johnclinton Luseno",
   "license": "ISC",
   "devDependencies": {
     "clean-webpack-plugin": "^4.0.0",
@@ -25,5 +24,6 @@
   "dependencies": {
     "jquery": "^3.7.0",
     "lodash": "^4.17.21"
-  }
+  },
+  "description": ""
 }

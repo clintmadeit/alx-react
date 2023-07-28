@@ -7,7 +7,7 @@
     "build": "webpack"
   },
   "keywords": [],
-  "author": "Phylis Mercy",
+  "author": "Johnclinton Luseno",
   "license": "ISC",
   "devDependencies": {
     "css-loader": "^6.8.1",
