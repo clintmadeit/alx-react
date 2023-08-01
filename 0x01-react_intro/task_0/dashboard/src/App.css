@@ -6,7 +6,13 @@
 }
 
 :root {
-  --holb-red: #FF0000;
+  --holb-red: #e23c40;
+}
+
+.App-logo {
+  height: 35vmin;
+  pointer-events: none;
+  cursor: pointer;
 }
 
 .App-header {
@@ -14,9 +20,9 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  border-bottom: 4px solid var(--holb-red);
+  justify-content: left;
+  font-size: calc(8px + 2vmin);
+  border-bottom: 3px solid var(--holb-red);
 }
 
 .App-header h1 {
@@ -39,7 +45,7 @@
 
 .App-footer {
   font-style: italic;
-  border-top: 4px solid var(--holb-red);
+  border-top: 3px solid var(--holb-red);
   display: flex;
   justify-content: center;
   align-items: center;
