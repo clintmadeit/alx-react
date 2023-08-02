@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+:root {
+  --holb-red: #e23c40;
+}
+
+.App-logo {
+  height: 35vmin;
+  pointer-events: none;
+  cursor: pointer;
+}
+
+.App-header {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  font-size: calc(8px + 2vmin);
+  border-bottom: 3px solid var(--holb-red);
+}
+
+.App-header h1 {
+  max-width: fit-content;
+  color: var(--holb-red);
+}
+
+/* Login form */
+
+.login-form {
+ margin-top: 10px;
+}
+
+.label-password, .ok-button {
+  margin-left: 10px;
+}
+
+/* App-body */
+
+.App-body {
+  min-height: 60vmin;
+  padding: 32px;
+}
+
+.App-body p {
+  font-weight: bold;
+}
+
+[data="default"] {
+  color: blue;
+}
+
+[data="urgent"] {
+  color: red;
+}
+
+/* App-footer */
+
+.App-footer {
+  font-style: italic;
+  border-top: 3px solid var(--holb-red);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 5vmin;
+}
