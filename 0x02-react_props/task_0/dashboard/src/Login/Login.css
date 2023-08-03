@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+:root {
+  --holb-red: #e23c40;
+}
+
+/* Login */
+
+.App-body {
+  min-height: 60vmin;
+  padding: 32px;
+}
+
+.App-body p {
+  font-weight: bold;
+}
