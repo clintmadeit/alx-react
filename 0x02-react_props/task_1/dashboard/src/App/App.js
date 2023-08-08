@@ -1,23 +1,14 @@
-import './App.css';
+import logo from '../assets/logo.png';
+import '..Header/Header.css';
 import React from 'react';
-import { hot } from 'react-hot-loader';
 
-import Header from '../Header/Header';
-import Login from '../Login/Login';
-import Footer from '../Footer/Footer';
-import { Notifications } from '../Notifications/Notifications';
-
-function App() {
-  return (
-    <>
-      <Notifications />
-      <div className="App">
-        <Header />
-        <Login />
-        <Footer />
-      </div>
-    </>
-  );
+function Header() {
+    return (
+        <div className="App-header">
+            <img src={ logo } alt="Holberton Logo: Red Seahorse" />
+            <h1>School dad</h1>
+        </div>
+    )
 }
 
-export default hot(module)(App);
+export default Header;

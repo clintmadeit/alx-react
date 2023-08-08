@@ -1,31 +1,14 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
-
-:root {
-  --holb-red: #e23c40;
-}
-
-.App-logo {
-  height: 35vmin;
-  pointer-events: none;
-  cursor: pointer;
-}
-
 .App-header {
-  background-color: white;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: left;
-  font-size: calc(8px + 2vmin);
-  border-bottom: 3px solid var(--holb-red);
-}
-
-.App-header h1 {
-  max-width: fit-content;
-  color: var(--holb-red);
-}
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    border-bottom: 4px solid var(--holb-red);
+  }
+  
+  .App-header h1 {
+    max-width: fit-content;
+    color: var(--holb-red);
+  }
