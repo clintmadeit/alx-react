@@ -26,11 +26,11 @@ module.exports = {
             options: {
               bypassOnDebug: true, // Webpack@1.x
               disable: true, // Webpack@2.x and above
-            },
-          },
-        ],
+            }
+          }
+        ]
       },
-    ],
+    ]
   },
 };
 
