@@ -1,4 +1,4 @@
-import * as notifications from '../../../notifications.json';
+import * as notifications from '../../../../notifications.json';
 
 export function getAllNotificationsByUser(userId) {
     return notifications.default

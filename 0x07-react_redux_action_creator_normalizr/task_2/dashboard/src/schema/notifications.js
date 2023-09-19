@@ -1,4 +1,4 @@
-import * as notifications from '../../../notifications.json';
+import * as notifications from '../../../../notifications.json';
 import { normalize, schema } from 'normalizr';
 
 // Define a user's schema
