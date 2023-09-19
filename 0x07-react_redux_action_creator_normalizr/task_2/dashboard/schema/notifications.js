@@ -45,7 +45,15 @@ export const normalizedData = normalize(notifications.default, mySchema);
 // ]
 
 export function getAllNotificationsByUser(userId) {
-    return notifications.default
-        .filter((notification) => userId === notification.author.id)
-        .map((notification) => notification.context);
+     const result = [];
+    // overriding the imported definition for notifications locally here.
+    const notifications = normalizedData.entities.notifications;
+    const messages = normalizedData.entities.messages;
+    for (const notifId in notifications) {
+        if (notifications[ notifId ].author === userId) {
+            const contextId = notifications[ notifId ].context;
+            result.push(messages[ contextId ]);
+        }
+    }
+    return result;
 }
